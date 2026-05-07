@@ -1,0 +1,201 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SeiChatSDKBinary",
+    "printedName": "SeiChatSDKBinary",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SeiChatSDKBinary"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SeiChatSDKBinary"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SeiChatSDK",
+        "printedName": "SeiChatSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SeiChatSDK",
+                "printedName": "SeiChatSDKBinary.SeiChatSDK",
+                "usr": "s:16SeiChatSDKBinary0aB3SDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16SeiChatSDKBinary0aB3SDKC6sharedACvpZ",
+            "mangledName": "$s16SeiChatSDKBinary0aB3SDKC6sharedACvpZ",
+            "moduleName": "SeiChatSDKBinary",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SeiChatSDK",
+                    "printedName": "SeiChatSDKBinary.SeiChatSDK",
+                    "usr": "s:16SeiChatSDKBinary0aB3SDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16SeiChatSDKBinary0aB3SDKC6sharedACvgZ",
+                "mangledName": "$s16SeiChatSDKBinary0aB3SDKC6sharedACvgZ",
+                "moduleName": "SeiChatSDKBinary",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16SeiChatSDKBinary0aB3SDKC10initializeyyF",
+            "mangledName": "$s16SeiChatSDKBinary0aB3SDKC10initializeyyF",
+            "moduleName": "SeiChatSDKBinary",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeViewController",
+            "printedName": "makeViewController(initialProps:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16SeiChatSDKBinary0aB3SDKC18makeViewController12initialPropsSo06UIViewG0CSDySSypG_tF",
+            "mangledName": "$s16SeiChatSDKBinary0aB3SDKC18makeViewController12initialPropsSo06UIViewG0CSDySSypG_tF",
+            "moduleName": "SeiChatSDKBinary",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16SeiChatSDKBinary0aB3SDKC",
+        "mangledName": "$s16SeiChatSDKBinary0aB3SDKC",
+        "moduleName": "SeiChatSDKBinary",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SeiChatSDKBinary"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SeiChatSDKBinary"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "SeiChatSDKBinary"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SeiChatSDKBinary",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
